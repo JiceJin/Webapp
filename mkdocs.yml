@@ -1,0 +1,17 @@
+site_name: My Docs
+nav:
+- Home: "index.md"
+- About: "about.md"
+- 'User Guide':
+  - 'User One': "user-guide/user-one.md"
+  - 'User Two': "user-guide/user-two.md"
+- 'License':
+  - 'License': 'license/licenses.md'
+  - 'Contact': 'license/contact.md'
+
+theme:
+  name: material
+  local: zh_CN
+  logo: 'img/R-C.png'
+  sticky_navigation: true
+
